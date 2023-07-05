@@ -23,7 +23,7 @@ and actually lot many other dimensions.
 So keeping it simple for now. As I have to contemplate the trade-off between time vs delivery. Further we can discuss more
 about extensibility and maintainability over a call. 
 
-HOW TO RUN ===============================
+HOW TO RUN
 
 Easiest way to run this application is to open in Intellij and run the main class directly. No additional setup is required.
 Assuming you have java 11 available in the machine.
@@ -37,13 +37,21 @@ Please open swagger link for easier interaction with API's : http://localhost:80
 Sample payload for each API call can be found in the images i have attached along with the submission.
 
 Step 1. Create Customer : http://localhost:8080/swagger-ui/index.html#/customer-controller/registerCustomer
+
 Step 2. Get Customer: http://localhost:8080/swagger-ui/index.html#/customer-controller/getCustomer
+
 Step 3. Create Product: http://localhost:8080/swagger-ui/index.html#/admin-controller/createProduct
+
 Step 4. Get Product: http://localhost:8080/swagger-ui/index.html#/admin-controller/getProduct
+
 Step 5. Create Discount: http://localhost:8080/swagger-ui/index.html#/admin-controller/createDiscount
+
 Step 6. Get Discount: http://localhost:8080/swagger-ui/index.html#/admin-controller/getDiscount
+
 Step 7. Add product to Basket: http://localhost:8080/swagger-ui/index.html#/customer-controller/addToBasket
+
 Step 8. Get Basket: http://localhost:8080/swagger-ui/index.html#/customer-controller/getBasket
+
 Step 9. Get Receipt: http://localhost:8080/swagger-ui/index.html#/customer-controller/generateReceipt
 
 also if the name of image is Step 1, then that image represents the sample for Step 1
